@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>A sandwich with a medium-sized pickle</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" />
+  </head>
+  <body>
+    <center>
+      <h1 class="text-6xl">Buy Now</h1>
+      <p class="m-5">Please enter your order information and pickle preferences to have<br> the sandwich delivered to your home within 48 hours.</p>
+      <form>
+        <div class="flex flex-wrap place-content-center">
+          <input placeholder="Full Name" class="">
+          <input placeholder="Address" class="">
+          <input placeholder="Credit Card Number" class="">
+          <input placeholder="CVV" class="">
+        </div>
+        <div>
+          <p class="mt-5 mb-3">Please select your sandwich flavor.</p>
+          <input type="radio" id="pickle1" name="pickle">
+          <label for="pickle1">Pickle</label><br>
+          <input type="radio" id="pickle2" name="pickle">
+          <label for="pickle2">Pickle</label><br>
+          <input type="radio" id="pickle3" name="pickle">
+          <label for="pickle3">Pickle</label>
 
+          <p class="mt-5 mb-3">Please select your delivery time.</p>
+          <input type="radio" id="delivery1" name="delivery">
+          <label for="delivery1">24 hours</label><br>
+          <input type="radio" id="delivery2" name="delivery">
+          <label for="delivery2">48 hours</label><br>
+          <input type="radio" id="delivery3" name="delivery">
+          <label for="delivery3">72 hours</label>
+        </div>
+        <input type="submit" class="py-2 px-5 rounded m-5 bg-green-700 hover:bg-green-800 text-white">
+      </form>
+    </center>
+  </body>
+</html>
